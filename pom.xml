@@ -13,5 +13,6 @@
 		<module>emillist02</module>
 		<module>guestbook02</module>
 		<module>mysite</module>
+		<module>jstlel</module>
 	</modules>
 </project>
