@@ -1,50 +1,49 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-	<h4>°ªÃâ·Â</h4>
+	<h4>ê°’ ì¶œë ¥</h4>
 	${ival } <br>
 	${lval } <br>
 	${fval } <br>
 	${bval } <br>
-	${sval } <br>	
-	
-	<h4>°´Ã¼Ãâ·Â</h4>
+	${sval } <br>
+
+	<h4>ê°ì²´ ì¶œë ¥</h4>
 	---${obj }--- <br>
 	${vo.no } <br>
 	${vo.name } <br>
-	
-	<h4>map°´Ã¼ Ãâ·Â</h4>
+
+	<h4>mapê°ì²´ ì¶œë ¥</h4>
 	${map.ival } <br>
 	${map.fval } <br>
 	${map.sval } <br>
-	
-	<h4>»ê¼ú¿¬»ê</h4>
+
+	<h4>ì‚°ìˆ ì—°ì‚°</h4>
 	${3*4+6/2 } <br>
 	${ival + 10 } <br>
-	
-	<h4>°ü°è¿¬»ê</h4>
+
+	<h4>ê´€ê³„ì—°ì‚°</h4>
 	${ival == 10 } <br>
 	${ival < 5 } <br>
 	${obj == null } <br>
+	${obj != null } <br>
 	${empty obj } <br>
 	${not empty obj } <br>
+
+	<h4>ë…¼ë¦¬ì—°ì‚°</h4>
+	${ival == 10 && lval < 1000 } <br>
+	${ival == 10 || lval < 1000 } <br>
 	
-	<h4>³í¸®¿¬»ê</h4>
-	${ival == 10 && ival < 1000 } <br>
-	${ival == 10 || ival < 1000 } <br>
-	
-	<h5>³í¸®¿¬»ê</h5>
+	<h4>ìš”ì²­ íŒŒë¼ë¯¸í„°</h4>
 	${param.a + 10 } <br>
 	${param.email } <br>
-	
-	<h6>³í¸®¿¬»ê</h6>
-	${pageContext.request.contextPath } <br>
 
-	
+	<h4>Context Path</h4>
+	${pageContext.request.contextPath }				
+</body>
 </html>
