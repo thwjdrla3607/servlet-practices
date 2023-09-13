@@ -6,8 +6,8 @@
 	<artifactId>servlet-practices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
-		<build>
+
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -24,7 +24,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		
 	</build>
 	
 	<modules>
