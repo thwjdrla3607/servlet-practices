@@ -21,6 +21,7 @@
 				<configuration>
 					<url>${tomcat.deploy.url}</url>
 					<server>poscodx-tomcat</server>
+					
 				</configuration>
 			</plugin>
 		</plugins>
