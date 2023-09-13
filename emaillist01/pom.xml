@@ -44,12 +44,8 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.tomcat.plugins</groupId>
-				<artifactId>mave-war-plugin</artifactId>
+				<artifactId>maven-war-plugin</artifactId>
 				<version>3.3.2</version>
-				<configuration>
-					<url>${tomcat.deploy.url}</url>
-					<server>poscodx-tomcat</server>
-				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
@@ -60,8 +56,6 @@
 					<server>poscodx-tomcat</server>
 				</configuration>
 			</plugin>
-			
-			
 		</plugins>
 		
 	</build>	
